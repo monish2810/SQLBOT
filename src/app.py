@@ -107,7 +107,7 @@ if st.sidebar.button("Connect to Database"):
 # Ensure Google API Key is set.
 # ------------------------------------------------
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBLMW7KP87zyukj3t6K27yl9HiazXqXmtU"  # Replace with your valid key
+    os.environ["GOOGLE_API_KEY"] = "YOUR_GEMINI_API_KEY"  # Replace with your valid key
 
 # ------------------------------------------------
 # Main Page Header and Description (With Custom Styles)
