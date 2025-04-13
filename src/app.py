@@ -89,7 +89,7 @@ if "db" not in st.session_state:
 st.sidebar.header("Database Connection Details")
 host = st.sidebar.text_input("Host", value="localhost")
 port = st.sidebar.text_input("Port", value="3306")
-database = st.sidebar.text_input("Database Name", value="sakila")
+database = st.sidebar.text_input("Database Name", value="databse Name")
 username = st.sidebar.text_input("Username", value="root")
 password = st.sidebar.text_input("Password", type="password", value="root")
 
@@ -120,7 +120,7 @@ st.write("Enter a natural language question and get an SQL query to answer it.")
 # User Input: Natural Language Question
 # ------------------------------------------------
 user_question = st.text_input(
-    "Enter your question", placeholder="e.g., What is the name of the actor with the most films?"
+    "Enter your question", placeholder="Enter your question here"
 )
 
 # ------------------------------------------------
